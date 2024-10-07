@@ -7,3 +7,4 @@ rm -rf  /usr/local/bin/terraform
 chmoh 777 terraform
 mv terraform /usr/local/bin/
 terraform --version
+echo " terraform version.."
