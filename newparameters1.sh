@@ -1,4 +1,6 @@
 #!/bin/bash
+while=true
+do
 if [ $# -gt 0 ]
 then 
 echo "$# number of argumets"
@@ -15,3 +17,4 @@ done
 else
 echo "Please provide the arguments"
 fi
+done
