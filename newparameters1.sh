@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $# >= 0 ]
+if [ $# -gt 0 ]
 then 
 echo "$# number of argumets"
 for app in $*
