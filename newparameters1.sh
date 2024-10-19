@@ -1,5 +1,5 @@
 #!/bin/bash
-while=true
+while true
 do
 if [ $# -gt 0 ]
 then 
