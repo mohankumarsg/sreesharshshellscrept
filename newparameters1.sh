@@ -1,8 +1,6 @@
 #!/bin/bash
-if [ $# == 0 ]
+if [ $# >= 0 ]
 then 
-echo "Please provide the arguments"
-else
 echo "$# number of argumets"
 for app in $*
 do 
@@ -14,4 +12,6 @@ echo "$app installed"
  echo "$app not installed"
  fi
 done 
+else
+echo "Please provide the arguments"
 fi
