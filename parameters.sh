@@ -1,6 +1,6 @@
 #!/bin/bash 
 #app=$*
-for app in "$*"
+for app in $@
 do 
 command -v $app >> /dev/null 
 if [ $? == 0 ];

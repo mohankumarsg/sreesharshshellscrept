@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "$# number of argumets"
-for app in "$*"
+for app in $*
 do 
 command -v $app >> /dev/null 
 if [ $? == 0 ];
