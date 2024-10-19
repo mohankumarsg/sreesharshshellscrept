@@ -5,8 +5,8 @@ do
 command -v $app >> /dev/null 2>&1
 if test $? == 0;
 then 
-echo "Terraform installed"
+echo "$@ installed"
  else
- echo "Terraform not installed"
+ echo "$@ not installed"
  fi
  done 
