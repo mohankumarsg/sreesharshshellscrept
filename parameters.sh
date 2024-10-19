@@ -1,5 +1,6 @@
 #!/bin/bash 
-command -v terraform >> /dev/null 2>&1
+app=$1
+command -v $app >> /dev/null 2>&1
 if test $? == 0;
 then 
 echo "Terraform installed"
