@@ -1,6 +1,5 @@
 #!/bin/bash
-
-if [ $# == 0]
+if [ $# == 0 ]
 then 
 echo "Please provide the arguments"
 else
