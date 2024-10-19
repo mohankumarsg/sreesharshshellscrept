@@ -5,8 +5,8 @@ do
 command -v $app >> /dev/null 2>&1
 if test $? == 0;
 then 
-echo "$@ installed"
+echo "$app installed"
  else
- echo "$@ not installed"
+ echo "$app not installed"
  fi
  done 
