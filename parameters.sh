@@ -3,7 +3,7 @@
 for app in "$*"
 do 
 command -v $app >> /dev/null 
-if test $? == 0;
+if [ $? == 0];
 then 
 echo "$app installed"
  else
