@@ -18,3 +18,4 @@ else
 echo "Please provide the arguments"
 fi
 done
+# This are the arguments shell
