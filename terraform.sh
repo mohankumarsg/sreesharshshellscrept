@@ -9,3 +9,5 @@ wget https://releases.hashicorp.com/terraform/${T_version}/terraform_${T_version
 #terraform --version
 #echo " terraform version.."
 #echo " terraform version 1.1.."
+
+echo " terraform version 1.2.3."
