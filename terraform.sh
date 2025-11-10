@@ -8,3 +8,4 @@ wget https://releases.hashicorp.com/terraform/${T_version}/terraform_${T_version
 #mv terraform /usr/local/bin/
 #terraform --version
 #echo " terraform version.."
+#echo " terraform version 1.1.."
